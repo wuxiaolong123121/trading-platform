@@ -1,3 +1,5 @@
+这是我第一次做的项目不会请大佬们多多指点，全程使用AI写的。有任何问题不要指望我，我只是个小白
+
 # AI 智能加密货币交易系统
 
 一个基于 React + TypeScript 的现代化加密货币交易平台，集成了 AI 辅助交易、实时市场分析、多币种交易等功能。
@@ -192,23 +194,6 @@ npm run build
 3. 提交变更
 4. 推送到分支
 5. 创建 Pull Request
-
-## 📄 许可证
-
-MIT License
-
-## 👥 团队
-
-- 前端开发团队
-- AI 算法团队
-- 产品设计团队
-- 测试团队
-
-## 📞 支持
-
-- 技术支持：support@example.com
-- 问题反馈：issues@example.com
-- 商务合作：business@example.com
 
 ## 项目说明
 
