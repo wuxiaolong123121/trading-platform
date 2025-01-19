@@ -2,7 +2,12 @@
 
 # AI 智能加密货币交易系统
 
-一个基于 React + TypeScript 的现代化加密货币交易平台，集成了 AI 辅助交易、实时市场分析、多币种交易等功能。
+本项目是一个基于 React 和 TypeScript 的现代化加密货币交易平台，集成了 AI 辅助交易、实时市场分析、多币种交易等功能。平台提供了模拟交易和实盘交易两种模式，支持多种交易策略和风险管理功能。
+[![CI](https://github.com/wuxiaolong123121/trading-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/wuxiaolong123121/trading-platform/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![TypeScript](https://img.shields.io/badge/TypeScript-4.9.5-blue.svg)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-18.2.0-blue.svg)](https://reactjs.org/)
+
 
 ## 🌟 主要特性
 
