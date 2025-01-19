@@ -1,0 +1,51 @@
+确保安装了 Docker 和 Docker Compose
+
+创建 SSL 证书目录（开发环境可以跳过）：
+CopyInsert in Terminal
+mkdir -p ssl/live/yourdomain.com
+
+构建和运行容器：
+CopyInsert in Terminal
+docker-compose up --build
+
+项目的 Docker 配置包括：
+前端（React 应用）：运行在 Nginx 上，端口 80/443
+后端（Node.js）：运行在端口 3000
+PostgreSQL 数据库：默认端口 5432
+Redis：默认端口 6379
+
+特点：
+多阶段构建，优化镜像大小
+Nginx 配置包含：
+SSL 支持
+Gzip 压缩
+静态文件缓存
+API 代理
+安全头设置
+
+使用 Docker Compose 管理多个服务：
+服务间网络隔离
+数据持久化
+自动重启策略
+环境变量配置
+数据库连接
+Redis 连接
+生产环境设置
+
+要在本地运行，你需要：
+修改 nginx.conf 中的 SSL 配置（开发环境）：
+nginx
+CopyInsert
+# 注释掉 SSL 相关配置
+# listen 443 ssl;
+# ssl_certificate ...
+# ssl_certificate_key ...
+
+运行项目：
+bash
+CopyInsert in Terminal
+docker-compose up --build
+
+访问：
+前端：http://localhost
+API：http://localhost/api
